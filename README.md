@@ -2,21 +2,21 @@
 A fake Hair Salon website as a sample to show clients. Currently WIP.
 
 ###### To Do List
-- [x] Outline layout for hair salon
-- [x] Find color scheme/theme
-- [x] Build out Home Page - HTML
-- [x] Build Out Home Page - CSS
-- [x] Build Out About Us - HTML
-- [x] Build Out About Us - CSS
-- [x] Build Out Services - HTML
-- [x] Build Out Services - CSS
-- [x] Build Out Booking - HTML
-- [x] Build Out Booking - CSS
-- [x] Build Out Contact Us - HTML
-- [x] Build Out Contact Us - CSS
-- [x] Find some ways to input JavaScript
-- [x] Services and prices table w/ descriptions
-- [x] Make site responsive for smaller browsers, tablets, and mobile
+- [ ] Outline layout for hair salon
+- [ ] Find color scheme/theme
+- [ ] Build out Home Page - HTML
+- [ ] Build Out Home Page - CSS
+- [ ] Build Out About Us - HTML
+- [ ] Build Out About Us - CSS
+- [ ] Build Out Services - HTML
+- [ ] Build Out Services - CSS
+- [ ] Build Out Booking - HTML
+- [ ] Build Out Booking - CSS
+- [ ] Build Out Contact Us - HTML
+- [ ] Build Out Contact Us - CSS
+- [ ] Find some ways to input JavaScript
+- [ ] Services and prices table w/ descriptions
+- [ ] Make site responsive for smaller browsers, tablets, and mobile
 
 ###### Home Page - Hair Salon
 1. Navigation
