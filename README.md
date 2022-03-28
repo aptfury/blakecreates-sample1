@@ -2,23 +2,25 @@
 A fake Hair Salon website as a sample to show clients. Currently WIP.
 
 ###### To Do List
-- [ ] Outline layout for hair salon
+- [x] Outline layout for hair salon
+- [x] Build out Home Page - HTML
+- [x] Build Out About Us - HTML
+- [x] Build Out Services - HTML
+- [x] Build Out Booking - HTML
+- [x] Build Out Contact Us - HTML
 - [ ] Find color scheme/theme
-- [ ] Build out Home Page - HTML
 - [ ] Build Out Home Page - CSS
-- [ ] Build Out About Us - HTML
 - [ ] Build Out About Us - CSS
-- [ ] Build Out Services - HTML
 - [ ] Build Out Services - CSS
-- [ ] Build Out Booking - HTML
 - [ ] Build Out Booking - CSS
-- [ ] Build Out Contact Us - HTML
 - [ ] Build Out Contact Us - CSS
 - [ ] Find some ways to input JavaScript
-- [ ] Services and prices table w/ descriptions
 - [ ] Make site responsive for smaller browsers, tablets, and mobile
 
-###### Home Page - Hair Salon
+###### The Process
+I usually start by psuedo-coding the layout of the website so I can get a better feel for how exactly I'm wanting to construct it. Sometimes I'll add and remove things as I go, but for the most part I find a layout I'm happy with and stick to it while I build the bones of the site.
+
+###### Home Page
 1. Navigation
     - Home
     - About Us
@@ -54,13 +56,13 @@ A fake Hair Salon website as a sample to show clients. Currently WIP.
     - Socials
     - Copyright
 
-###### About Us - Hair Salon
+###### About Us
 1. Our story
     - Lorem ipsum 2-3 paragraphs
 2. About the owner
     - Lorem ipsum 1-2 paragraphs
 
-###### Services - Hair Salon
+###### Services
 1. General Information
     - Call our store for a more specific/accurate price quote
     - All services come with a complimentary hair wash and deep conditioning treatment
@@ -73,7 +75,7 @@ A fake Hair Salon website as a sample to show clients. Currently WIP.
 5. Hair Coloring - $75 to $250
     - Lorem Ipsum
 
-###### Book Appointment - Hair Salon
+###### Book Appointment
 1. Ready to Book Appointment?
     - Lorem Ipsum
 2. Table of Available Times
@@ -92,7 +94,7 @@ A fake Hair Salon website as a sample to show clients. Currently WIP.
     - Schedule Button
     - Disclaimer: Please call if you'd like a brief phone consultation for a price quote. If we run into any scheduling conflicts, we'll give you a call and work out a new appointment date.
 
-###### Contact Us - Hair Salon
+###### Contact Us
 1. Need to get in touch?
     - Business Name
     - Address
@@ -102,6 +104,5 @@ A fake Hair Salon website as a sample to show clients. Currently WIP.
     - Name
     - Phone
     - Email
-    - Pronouns
     - Message Box
     - Submit Button
