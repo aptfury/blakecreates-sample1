@@ -1,22 +1,22 @@
-# blakecreates-sample1
-A sample of my work to show clients
+# blakecreates-sample1 - Hair Salon
+A fake Hair Salon website as a sample to show clients. Currently WIP.
 
 ###### To Do List
-[x] Outline layout for hair salon
-[x] Find color scheme/theme
-[x] Build out Home Page - HTML
-[x] Build Out Home Page - CSS
-[x] Build Out About Us - HTML
-[x] Build Out About Us - CSS
-[x] Build Out Services - HTML
-[x] Build Out Services - CSS
-[x] Build Out Booking - HTML
-[x] Build Out Booking - CSS
-[x] Build Out Contact Us - HTML
-[x] Build Out Contact Us - CSS
-[x] Find some ways to input JavaScript
-[x] Services and prices table w/ descriptions
-[x] Make site responsive for smaller browsers, tablets, and mobile
+- [x] Outline layout for hair salon
+- [x] Find color scheme/theme
+- [x] Build out Home Page - HTML
+- [x] Build Out Home Page - CSS
+- [x] Build Out About Us - HTML
+- [x] Build Out About Us - CSS
+- [x] Build Out Services - HTML
+- [x] Build Out Services - CSS
+- [x] Build Out Booking - HTML
+- [x] Build Out Booking - CSS
+- [x] Build Out Contact Us - HTML
+- [x] Build Out Contact Us - CSS
+- [x] Find some ways to input JavaScript
+- [x] Services and prices table w/ descriptions
+- [x] Make site responsive for smaller browsers, tablets, and mobile
 
 ###### Home Page - Hair Salon
 1. Navigation
