@@ -203,18 +203,28 @@
         <h2>Contact Us</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil esse veniam laboriosam mollitia qui enim rem officiis vitae dignissimos blanditiis nostrum tempore quos amet nulla consectetur, atque dicta, animi voluptates.</p>
         <form name="contactForm" action="#">
-            <!-- NAME -->
-            <label for="contactName">Full Name:</label>
-            <input type="text" name="full-name" placeholder="Full Name" id="contactName" required>
-            <!-- PHONE -->
-            <label for="contactPhone">Phone:</label>
-            <input type="tel" name="phone-number" placeholder="(123) 456-7890" id="contactPhone" required>
-            <!-- EMAIL -->
-            <label for="contactEmail">Email:</label>
-            <input type="email" name="email-address" placeholder="email@domain.com" id="contactEmail" required>
+            <section class="formContainer">
+                <!-- NAME -->
+                <section class="formName">
+                    <label for="contactName">Name</label>
+                    <input type="text" name="full-name" placeholder="Full Name" id="contactName" required>
+                </section>
+                <!-- PHONE -->
+                <section class="formPhone">
+                    <label for="contactPhone">Phone</label>
+                    <input type="tel" name="phone-number" placeholder="(123) 456-7890" id="contactPhone" required>
+                </section>
+                <!-- EMAIL -->
+                <section class="formEmail">
+                    <label for="contactEmail">Email</label>
+                    <input type="email" name="email-address" placeholder="email@domain.com" id="contactEmail" required>
+                </section>
+            </section>
             <!-- MESSAGE BOX -->
-            <label for="contactMessage">Message:</label>
-            <textarea name="message" placeholder="Type your message here..." id="contactMessage" required></textarea>
+            <section class="formMessage">
+                <label for="contactMessage">Message</label>
+                <textarea name="message" placeholder="Type your message here..." id="contactMessage" required></textarea>
+            </section>
             <!-- SUBMIT BUTTON -->
             <input type="submit" name="contactSubmit" value="Send Message">
         </form>

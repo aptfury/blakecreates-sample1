@@ -3,6 +3,10 @@
 
 /* HTML SETTINGS */
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     font: 400 62.5% Arial, Helvetica, sans-serif;
 }
@@ -386,15 +390,66 @@ table {
 .contact p {
     width: 60%;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .contact form {
     width: 65%;
-    border: 1px dotted silver;
     margin: auto;
     padding: 50px;
-    background-color:rgb(250, 250, 250);
+    background-color: rgb(243, 242, 242);
+}
+
+.formContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+form label {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #000;
+    font-size: 1.3rem;
+    display: none;
+}
+
+.formName, .formPhone, .formEmail {
+    width: 32%;
+}
+
+.formMessage {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#contactName, #contactPhone, #contactEmail {
+    background-color:#fff;
+    width: 100%;
+    border: none;
+    border: 10px solid #fff;
+}
+
+#contactMessage {
+    background-color: #fff;
+    width: 100%;
+    border: none;
+    border: 10px solid #fff;
+    height: 200px;
+    resize: none;
+}
+
+input[name="contactSubmit"] {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 0;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
 }
 
 /* FOOTER */
@@ -404,14 +459,13 @@ footer {
     width: 100%;
     font-size: 1.2rem;
     color:rgb(243, 242, 242);
-    padding: 10px 0;
+    padding: 30px;
 }
 
 footer > section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px 20px 0 20px;
 }
 
 address {
@@ -449,7 +503,7 @@ footer ul {
 footer nav li {
     display: inline-block;
     text-align: center;
-    padding: 10px;
+    padding: 0 10px;
 }
 
 footer p {
