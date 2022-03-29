@@ -1,5 +1,5 @@
 # blakecreates-sample1 - Hair Salon
-A fake Hair Salon website as a sample to show clients. Currently WIP.
+A fake Hair Salon website as a sample to show clients. Currently WIP. [Live Preview](https://unique-conkies-2b8d7b.netlify.app/)
 
 ###### To Do List
 - [x] Outline layout for hair salon
