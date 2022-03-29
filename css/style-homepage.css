@@ -1,0 +1,306 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+/* HTML SETTINGS */
+
+html {
+    font: 400 62.5% Arial, Helvetica, sans-serif;
+}
+
+/* MAIN */
+
+main {
+    background-image: url('/img/Header1.jpg');
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/* NAVIGATION */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 0px 20px;
+}
+
+header li a {
+    text-decoration: none;
+    color: rgb(243, 242, 242);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* PRIMARY FOCUS */
+
+.primaryFocus {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.primaryFocus h1 {
+    font-family: 'Hurricane', cursive;
+    background-image: linear-gradient(90deg, rgba(180,156,58,1) 0%, rgba(253,29,29,1) 50%, rgba(167,34,160,1) 100%);
+    background-clip: text;
+    color: transparent;
+    padding: 20px;
+    font-size: 10rem;
+}
+
+.primaryFocus p {
+    color: rgb(243, 242, 242);
+    width: 30%;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 2px;
+}
+
+.primaryFocus ul {
+    list-style: none;
+    padding: 0;
+}
+
+.primaryFocus li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.primaryFocus a {
+    color: rgb(243, 242, 242);
+    font-size: 3rem;
+}
+
+/* STAFF */
+
+.staff {
+    font-size: 1.2rem;
+    background-color: rgb(243, 242, 242);;
+    padding: 100px;
+}
+
+.staff h2 {
+    font-family: 'Hurricane', cursive;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 30%;
+    font-size: 5rem;
+}
+
+.staffContain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.staff .alicia, .staff .brandon, .staff .tiffany, .staff .starr {
+    border: 2px solid #000;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    border-top: 20px solid #000;
+
+}
+
+.staff span {
+    display: block;
+    text-align: center;
+    background-color: #000;
+    padding: 10px 0;
+    color: rgb(243, 242, 242);
+    width: 100%;
+}
+
+.staff strong {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.staff em {
+    display: block;
+}
+
+.alicia {
+    background-image: url('/img/Alicia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.brandon {
+    background-image: url('/img/Brandon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tiffany {
+    background-image: url('/img/Tiffany.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.starr {
+    background-image: url('/img/Starr.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* WHY US */
+
+.pickMe {
+    font-size: 1.2rem;
+    background-color: #fff;
+    padding: 100px;
+}
+
+.chooseMe {
+    width: 60%;
+    margin: auto;
+}
+
+.chooseMe h2 {
+    font-family: 'Hurricane', cursive;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    width: 30%;
+    font-size: 5rem;
+}
+
+/* TESTIMONIALS */
+
+.reviews {
+    padding: 100px;
+    font-size: 1.2rem;
+    background-color: rgb(243, 242, 242);
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reviews h2 {
+    font-family: 'Hurricane', cursive;
+    text-align: center;
+    padding: 0 0 50px 0;
+    margin: auto;
+    width: 30%;
+    font-size: 5rem;
+    display: block;
+}
+
+.testimonials section {
+    width: 300px;
+}
+
+.testimonials img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid rgb(39, 38, 38);
+    display: block;
+    margin: auto;
+}
+
+.testimonials h6 {
+    font-size: 2rem;
+    padding: 5px 0;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(39, 38, 38);
+}
+
+.ratings {
+    display: flex;
+    justify-content: center;
+}
+
+.ratings i {
+    color: gold;
+    padding: 0 3px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color:rgb(39, 38, 38);
+    width: 100%;
+    font-size: 1.2rem;
+    color:rgb(243, 242, 242);
+    padding: 10px 0;
+}
+
+footer > section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+}
+
+address {
+    font-style: normal;
+    text-align: left;
+}
+
+footer address span {
+    display: block;
+}
+
+address strong {
+    display: block;
+    font-weight: 400;
+}
+
+footer a {
+    color: rgb(243, 242, 242);
+    text-decoration: none;
+}
+
+address:first-child {
+    font-weight: bold;
+}
+
+footer nav {
+    text-align: right;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+}

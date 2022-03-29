@@ -9,7 +9,7 @@ A fake Hair Salon website as a sample to show clients. Currently WIP.
 - [x] Build Out Booking - HTML
 - [x] Build Out Contact Us - HTML
 - [ ] Find color scheme/theme
-- [ ] Build Out Home Page - CSS
+- [x] Build Out Home Page - CSS
 - [ ] Build Out About Us - CSS
 - [ ] Build Out Services - CSS
 - [ ] Build Out Booking - CSS
