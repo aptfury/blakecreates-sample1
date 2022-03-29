@@ -89,11 +89,79 @@ header li a {
     font-size: 3rem;
 }
 
+/* OUR SERVICES */
+
+.services {
+    font-size: 1.2rem;
+    background-color: rgb(243, 242, 242);
+    padding: 100px;
+}
+
+.services h2 {
+    font-family: 'Hurricane', cursive;
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    font-size: 5rem;
+}
+
+.services > p {
+    font-style: italic;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.serviceList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.topService {
+    margin-bottom: 50px;
+}
+
+.serviceList section {
+    width: 45%;
+}
+
+.serviceList h3 {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 auto;
+    border-left: 1px solid #000;
+    border-right:  1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    width: 50%;
+}
+
+.serviceList span {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    background-color: #000;
+    color: rgb(243, 242, 242);
+    width: 20%;
+    margin: auto;
+    padding: 2px;
+}
+
+.serviceList a {
+    color:rgb(170, 47, 47);
+}
+
 /* STAFF */
 
 .staff {
     font-size: 1.2rem;
-    background-color: rgb(243, 242, 242);;
+    background-color: #fff;
     padding: 100px;
 }
 
@@ -167,11 +235,11 @@ header li a {
     background-repeat: no-repeat;
 }
 
-/* WHY US */
+/* ABOUT US */
 
 .pickMe {
     font-size: 1.2rem;
-    background-color: #fff;
+    background-color: rgb(243, 242, 242);
     padding: 100px;
 }
 
@@ -194,7 +262,7 @@ header li a {
 .reviews {
     padding: 100px;
     font-size: 1.2rem;
-    background-color: rgb(243, 242, 242);
+    background-color: #fff;
 }
 
 .testimonials {
@@ -243,6 +311,90 @@ header li a {
 .ratings i {
     color: gold;
     padding: 0 3px;
+}
+
+/* BOOKING */
+
+.booking {
+    font-size: 1.2rem;
+    background-color: rgb(243, 242, 242);
+    padding: 100px;
+}
+
+.booking h2 {
+    font-family: 'Hurricane', cursive;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    width: 30%;
+    font-size: 5rem;
+}
+
+.booking p {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: auto;
+}
+
+.hours {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 5px;
+    font-size: 2rem;
+}
+
+.weekday {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100px;
+    background-color: #000;
+    color: rgb(243, 242, 242);
+    padding: 5px 15px 5px 5px;
+}
+
+.businessHours {
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+/* CONTACT US */
+
+.contact {
+    font-size: 1.2rem;
+    background-color: #fff;
+    padding: 100px;
+}
+
+.contact h2 {
+    font-family: 'Hurricane', cursive;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    width: 30%;
+    font-size: 5rem;
+}
+
+.contact p {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.contact form {
+    width: 65%;
+    border: 1px dotted silver;
+    margin: auto;
+    padding: 50px;
+    background-color:rgb(250, 250, 250);
 }
 
 /* FOOTER */
