@@ -63,6 +63,12 @@ header li a {
     background-image: linear-gradient(90deg, rgba(180,156,58,1) 0%, rgba(253,29,29,1) 50%, rgba(167,34,160,1) 100%);
     background-clip: text;
     color: transparent;
+    -webkit-background-image: linear-gradient(90deg, rgba(180,156,58,1) 0%, rgba(253,29,29,1) 50%, rgba(167,34,160,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-color: transparent;
+    -ms-background-image: linear-gradient(90deg, rgba(180,156,58,1) 0%, rgba(253,29,29,1) 50%, rgba(167,34,160,1) 100%);
+    -ms-background-clip: text;
+    -ms-color: transparent;
     padding: 20px;
     font-size: 10rem;
 }
