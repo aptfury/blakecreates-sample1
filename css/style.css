@@ -75,7 +75,6 @@ header li a {
 
 .primaryFocus p {
     color: rgb(243, 242, 242);
-    width: 30%;
     font-weight: bold;
     position: absolute;
     z-index: 2;
@@ -515,4 +514,43 @@ footer nav li {
 footer p {
     width: 100%;
     text-align: center;
+}
+
+/*************************************
+    LARGE SCREEN
+*************************************/
+
+@media all and (max-width: 1620px) and (min-width: 1200px) {
+    .reviews h2 {
+        width: 40%;
+    }
+
+    .staffContain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 50px;
+        width: 60%;
+        margin:auto;
+    }
+
+    .alicia {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .brandon {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .tiffany {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .starr {
+        grid-column: 2;
+        grid-row: 2;
+    }
 }

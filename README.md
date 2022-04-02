@@ -5,7 +5,7 @@ A fake Hair Salon website as a sample to show clients. Currently WIP. [Live Prev
 - [x] Outline layout for hair salon
 - [x] Build out HTML
 - [x] Build Out CSS
-- [ ] Make Responsive: 1620px - 1200px
+- [x] Make Responsive: 1620px - 1200px
 - [ ] Make Responsive: 1199px - 800px
 - [ ] Make Responsive: 799px - 200px
 - [ ] Find some ways to input JavaScript (Rotating testimonials, maybe?)
