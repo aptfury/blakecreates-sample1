@@ -190,7 +190,7 @@ header li a {
     height: 100%;
 }
 
-.staff .alicia, .staff .brandon, .staff .tiffany, .staff .starr {
+.alicia, .brandon, .tiffany, .starr {
     border: 2px solid #000;
     width: 350px;
     height: 500px;
@@ -517,14 +517,18 @@ footer p {
 }
 
 /*************************************
+
     LARGE SCREEN
+
 *************************************/
 
 @media all and (max-width: 1620px) and (min-width: 1200px) {
+    /* TESTIMONIALS */
     .reviews h2 {
         width: 40%;
     }
 
+    /* STAFF */
     .staffContain {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -552,5 +556,155 @@ footer p {
     .starr {
         grid-column: 2;
         grid-row: 2;
+    }
+}
+
+/*************************************
+
+    MEDIUM SCREEN
+    
+*************************************/
+
+@media all and (max-width: 1199px) and (min-width: 800px) {
+    /* SERVICES */
+    .services {
+        padding: 50px;
+    }
+
+    .services h2 {
+        width: 70%;
+    }
+
+    .services > p {
+        width: 70%;
+    }
+
+    .serviceList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .serviceList:first-child {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .serviceList:last-child {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .serviceList h3 {
+        width: 90%;
+    }
+
+    .serviceList section {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .topService {
+        margin-bottom: 20px;
+    }
+
+    /* STAFF */
+    .staff {
+        padding: 50px;
+    }
+
+    .staff h2 {
+        width: 70%;
+    }
+
+    .staffContain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        width: 60%;
+        margin:auto;
+    }
+
+    .alicia {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .brandon {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .tiffany {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .starr {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    /* ABOUT US */
+    .pickMe {
+        padding: 50px;
+    }
+
+    .chooseMe {
+        width: 80%;
+        margin: auto;
+    }
+
+    .chooseMe h2 {
+        width: 50%;
+    }
+
+    /* TESTIMONIALS */
+    .reviews {
+        padding: 50px;
+    }
+
+    .reviews h2 {
+        width: 70%;
+    }
+
+    .testimonials section {
+        width: 30%;
+        text-align: justify;
+    }
+
+    /* BOOKING */
+    .booking {
+        padding: 50px;
+    }
+
+    .booking h2 {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .booking p {
+        width: 90%;
+    }
+
+    /* CONTACT US */
+    .contact {
+        padding: 50px;
+    }
+
+    .contact h2 {
+        width: 60%;
+    }
+
+    .contact p {
+        width: 90%;
+    }
+
+    .contact form {
+        width: 90%;
     }
 }
