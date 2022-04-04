@@ -23,17 +23,18 @@
         ------------------------------>
         <header>
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#aboutUs">About Us</a></li>
-                    <li><a href="#ourServices">Our Services</a></li>
-                    <li><a href="#bookAppt">Book Appointment</a></li>
-                    <li><a href="#contactUs">Contact Us</a></li>
+                <ul class="menu">
+                    <li class="menuItem"><a href="#">Home</a></li>
+                    <li class="menuItem"><a href="#aboutUs">About Us</a></li>
+                    <li class="menuItem"><a href="#ourServices">Our Services</a></li>
+                    <li class="menuItem"><a href="#bookAppt">Book Appointment</a></li>
+                    <li class="menuItem"><a href="#contactUs">Contact Us</a></li>
                 </ul>
             </nav>
-            <nav class="mobileNav">
-                <i class="fa-solid fa-bars"></i>
-            </nav>
+            <button class="mobileNav">
+                <i class="fa-solid fa-bars menuIcon"></i>
+                <i class="fa-solid fa-xmark closeIcon"></i>
+            </button>
         </header>
         <!-----------------------------
             PRIMARY FOCUS
@@ -266,6 +267,6 @@
     </footer>
 
     <!-- Linked JavaScript Documents -->
-    <script type="text/javascript" src="/js/js-homepage.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

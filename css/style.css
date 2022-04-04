@@ -713,16 +713,50 @@ footer p {
         justify-content: flex-start;
     }
 
-    header ul {
-        display: none;
+    .menu {
+        position: fixed;
+        transform: translateY(-105%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background: #000;
+        color: rgb(243, 242, 242);
+        padding-top: 4rem;
+        height: 250px;
     }
 
     .mobileNav {
         display: block;
+        position: fixed;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 10px;
+        border: none;
+        background-color: #000;;
         color: rgb(243, 242, 242);
         font-size: 3rem;
-        margin-left: 20px;
-        margin-top: 20px;
+        border-radius: 100%;
+    }
+
+    .closeIcon {
+        display: none;
+    }
+
+    .menuIcon {
+        display: block;
+    }
+
+    .showMenu {
+        transform: translateY(-5%);
+    }
+
+    .menuItem {
+        display: block;
+        text-align: center;
     }
 
     /* PRIMARY FOCUS */
@@ -821,7 +855,6 @@ footer p {
     }
 
     /* BOOKING */
-
     .booking {
         padding: 30px;
     }
