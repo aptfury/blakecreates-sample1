@@ -868,5 +868,6 @@ footer p {
 
     input[name="contactSubmit"] {
         margin-top: 10px;
+        padding: 10px 40px;
     }
 }
