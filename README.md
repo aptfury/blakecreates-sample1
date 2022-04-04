@@ -10,7 +10,7 @@ A fake Hair Salon website as a sample to show clients. Currently WIP. [Live Prev
 - [x] Make Responsive: 799px - 501px
 - [x] Make Responsive: 500px and below
 - [x] Toggle Menu for Phones / Small Screens
-- [ ] Testimonials Carousel (JS)
+- [ ] Testimonials Carousel
 - [ ] Staff Carousel or Fade-Ins to limit screen consumption of the staff area.
 
 ###### The Process
