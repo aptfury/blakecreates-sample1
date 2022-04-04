@@ -6,9 +6,11 @@ A fake Hair Salon website as a sample to show clients. Currently WIP. [Live Prev
 - [x] Build out HTML
 - [x] Build Out CSS
 - [x] Make Responsive: 1620px - 1200px
-- [ ] Make Responsive: 1199px - 800px
-- [ ] Make Responsive: 799px - 200px
-- [ ] Find some ways to input JavaScript (Rotating testimonials, maybe?)
+- [x] Make Responsive: 1199px - 800px
+- [x] Make Responsive: 799px - 200px
+- [ ] Hamburger Menu Funcionality (JS)
+- [ ] Testimonials Carousel (JS)
+- [ ] Staff Carousel or Fade-Ins to limit screen consumption of the staff area.
 
 ###### The Process
 I usually start by psuedo-coding the layout of the website so I can get a better feel for how exactly I'm wanting to construct it. Sometimes I'll add and remove things as I go, but for the most part I find a layout I'm happy with and stick to it while I build the bones of the site.

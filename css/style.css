@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
 
 /* HTML SETTINGS */
-
 * {
     box-sizing: border-box;
 }
@@ -12,7 +11,6 @@ html {
 }
 
 /* MAIN */
-
 main {
     background-image: url('/img/Header1.jpg');
     background-size: cover;
@@ -21,7 +19,6 @@ main {
 }
 
 /* NAVIGATION */
-
 header {
     display: flex;
     justify-content: center;
@@ -46,16 +43,20 @@ header li a {
     font-weight: 700;
 }
 
-/* PRIMARY FOCUS */
+.mobileNav {
+    display: none;
+}
 
+/* PRIMARY FOCUS */
 .primaryFocus {
     display: flex;
     width: 100%;
-    height: 800px;
+    max-height: 800px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    padding-bottom: 100px;
 }
 
 .primaryFocus h1 {
@@ -99,7 +100,6 @@ header li a {
 }
 
 /* OUR SERVICES */
-
 .services {
     font-size: 1.2rem;
     background-color: rgb(243, 242, 242);
@@ -141,10 +141,7 @@ header li a {
     text-transform: uppercase;
     padding: 0;
     margin: 0 auto;
-    border-left: 1px solid #000;
-    border-right:  1px solid #000;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border: 1px solid #000;
     text-align: center;
     width: 50%;
 }
@@ -167,7 +164,6 @@ header li a {
 }
 
 /* STAFF */
-
 .staff {
     font-size: 1.2rem;
     background-color: #fff;
@@ -190,7 +186,7 @@ header li a {
     height: 100%;
 }
 
-.staff .alicia, .staff .brandon, .staff .tiffany, .staff .starr {
+.alicia, .brandon, .tiffany, .starr {
     border: 2px solid #000;
     width: 350px;
     height: 500px;
@@ -245,7 +241,6 @@ header li a {
 }
 
 /* ABOUT US */
-
 .pickMe {
     font-size: 1.2rem;
     background-color: rgb(243, 242, 242);
@@ -267,7 +262,6 @@ header li a {
 }
 
 /* TESTIMONIALS */
-
 .reviews {
     padding: 100px;
     font-size: 1.2rem;
@@ -323,7 +317,6 @@ header li a {
 }
 
 /* BOOKING */
-
 .booking {
     font-size: 1.2rem;
     background-color: rgb(243, 242, 242);
@@ -376,7 +369,6 @@ table {
 }
 
 /* CONTACT US */
-
 .contact {
     font-size: 1.2rem;
     background-color: #fff;
@@ -458,7 +450,6 @@ input[name="contactSubmit"] {
 }
 
 /* FOOTER */
-
 footer {
     background-color:rgb(39, 38, 38);
     width: 100%;
@@ -519,14 +510,16 @@ footer p {
 /*************************************
 
     LARGE SCREEN
-    
+
 *************************************/
 
 @media all and (max-width: 1620px) and (min-width: 1200px) {
+    /* TESTIMONIALS */
     .reviews h2 {
         width: 40%;
     }
 
+    /* STAFF */
     .staffContain {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -554,5 +547,327 @@ footer p {
     .starr {
         grid-column: 2;
         grid-row: 2;
+    }
+}
+
+/*************************************
+
+    MEDIUM SCREEN
+    
+*************************************/
+
+@media all and (max-width: 1199px) and (min-width: 800px) {
+    /* OUR SERVICES */
+    .services {
+        padding: 50px;
+    }
+
+    .services h2 {
+        width: 70%;
+    }
+
+    .services > p {
+        width: 70%;
+    }
+
+    .serviceList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .serviceList:first-child {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .serviceList:last-child {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .serviceList h3 {
+        width: 90%;
+    }
+
+    .serviceList section {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .topService {
+        margin-bottom: 20px;
+    }
+
+    /* STAFF */
+    .staff {
+        padding: 50px;
+    }
+
+    .staff h2 {
+        width: 70%;
+    }
+
+    .staffContain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        width: 60%;
+        margin:auto;
+    }
+
+    .alicia {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .brandon {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .tiffany {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .starr {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    /* ABOUT US */
+    .pickMe {
+        padding: 50px;
+    }
+
+    .chooseMe {
+        width: 80%;
+        margin: auto;
+    }
+
+    .chooseMe h2 {
+        width: 50%;
+    }
+
+    /* TESTIMONIALS */
+    .reviews {
+        padding: 50px;
+    }
+
+    .reviews h2 {
+        width: 70%;
+    }
+
+    .testimonials section {
+        width: 30%;
+        text-align: justify;
+    }
+
+    /* BOOKING */
+    .booking {
+        padding: 50px;
+    }
+
+    .booking h2 {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .booking p {
+        width: 90%;
+    }
+
+    /* CONTACT US */
+    .contact {
+        padding: 50px;
+    }
+
+    .contact h2 {
+        width: 60%;
+    }
+
+    .contact p {
+        width: 90%;
+    }
+
+    .contact form {
+        width: 90%;
+    }
+}
+
+/*************************************
+
+    SMALL SCREEN
+    
+*************************************/
+
+@media all and (max-width: 799px) {
+    /* NAVIGATION */
+    header {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    .mobileNav {
+        display: block;
+        color: rgb(243, 242, 242);
+        font-size: 3rem;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    /* PRIMARY FOCUS */
+    .primaryFocus h1 {
+        font-size: 7rem;
+    }
+
+    .primaryFocus p {
+        font-size: 1rem;
+    }
+
+    /* OUR SERVICES */
+    .services {
+        padding: 30px;
+    }
+
+    .services h2 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .services > p {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .serviceList {
+        display: block;
+    }
+
+    .topService {
+        margin-bottom: 0;
+    }
+
+    .serviceList section {
+        margin-top: 30px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .serviceList h3 {
+        width: 100%;
+    }
+
+    /* STAFF */
+    .staff {
+        padding: 30px;
+    }
+
+    .staff h2 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .staffContain {
+        display: block;
+    }
+
+    .alicia, .brandon, .tiffany, .starr {
+        margin: 20px auto;
+    }
+
+    /* ABOUT US */
+    .pickMe {
+        padding: 30px;
+    }
+
+    .chooseMe {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .chooseMe h2 {
+        width: 100%;
+    }
+
+    /* TESTIMONIALS */
+    .reviews {
+        padding: 30px;
+    }
+
+    .testimonials {
+        display: block;
+    }
+
+    .reviews h2 {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .testimonials section {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    /* BOOKING */
+
+    .booking {
+        padding: 30px;
+    }
+
+    .booking h2 {
+        width: 100%;
+    }
+
+    .booking p {
+        width: 100%;
+    }
+
+    /* CONTACT US */
+    .contact {
+        padding: 30px;
+    }
+
+    .contact h2 {
+        width: 100%;
+    }
+
+    .contact p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .formContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .formName, .formPhone, .formEmail {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .formMessage {
+        margin-top: 0;
+    }
+
+    input[name="contactSubmit"] {
+        margin-top: 10px;
+        padding: 10px 40px;
     }
 }
