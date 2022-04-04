@@ -904,3 +904,48 @@ footer p {
         padding: 10px 40px;
     }
 }
+
+/*************************************
+
+    MOBILE SCREEN
+    
+*************************************/
+
+@media all and (max-width: 480px) {
+    .primaryFocus h1 {
+        font-size: 5rem;
+    }
+
+    .primaryFocus p {
+        margin-top: -19px;
+    }
+
+    .services h2 {
+        font-size: 4rem;
+    }
+
+    .staff h2 {
+        font-size: 4rem;
+    }
+
+    .chooseMe h2 {
+        font-size: 4rem;
+    }
+
+    .reviews h2 {
+        font-size: 4rem;
+    }
+
+    .booking h2 {
+        font-size: 4rem;
+    }
+
+    .contact h2 {
+        font-size: 4rem;
+    }
+
+    .footerNav li {
+        display: block;
+        text-align: right;
+    }
+}
